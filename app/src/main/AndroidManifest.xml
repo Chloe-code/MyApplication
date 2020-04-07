@@ -21,6 +21,7 @@
         android:roundIcon="@drawable/bg_round_button"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
+        android:networkSecurityConfig="@xml/network_security_config"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".test2"></activity>
         <activity android:name=".qrcode" />
